@@ -60,7 +60,7 @@ int main() {
             cout << "Successfully logged in!" << endl;
             cout << "Welcome to your profile!!\n\n" << endl;
             cout << "Name: " + username << endl;
-            cout << "Edit bio?\n\n\t\t\t (Yes/No)" << endl; cin >> pick;
+            cout << "Edit bio?\n\n\t (Yes/No)" << endl; cin >> pick;
             if (pick == 'y') {
                 cout << "\n\n\t >>>> "; cin >> bio;
 
